@@ -1,0 +1,38 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+textarea {
+    height: 200px;
+    width: 85%;
+    border: dashed grey 2px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    background-color: #CB4335;
+    border-style: #CB4335 2px;
+    border-radius: 20px 20px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
+.btn-flow {
+    justify-content: space-between;
+}
