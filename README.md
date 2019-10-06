@@ -18,8 +18,11 @@ When you press the Generate Password button, users will be prompted a series of 
 
   * Uppercase characters
 
-  After answering the prompt and confirm messages, a password will be generated in the textarea based on what the user entered.
+  After answering the prompt and confirm messages, a password will be generated in the textarea based on what the user entered. 
+  
+  You can also copy the generated password to your clipboard using the Copy to Clipboard button.
+  
 
   -------------------------------------
 
-  You can also copy the generated password to your clipboard using the Copy to Clipboard button.
+<img src="assets/password-generator-app.png">
