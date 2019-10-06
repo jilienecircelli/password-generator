@@ -24,7 +24,11 @@ function genPassword(numberOfChar, hasSpecialChar, hasNumericChar, hasUpperChar,
     var randomNumericChar;
     var randomUpperChar;
     var randomLowerChar;
+    var allChoices = [randomSpecialChar, randomNumericChar, randomLowerChar, randomUpperChar];
 
+    for (var i = 0; i < allChoices.length; i++) {
+        const element = allChoices[i];
+    }
     if (hasSpecialChar) {
         randomSpecialChar = getRandomValue(special)
     }
@@ -37,7 +41,6 @@ function genPassword(numberOfChar, hasSpecialChar, hasNumericChar, hasUpperChar,
     if (hasLowerChar) {
         randomLowerChar = getRandomValue(lower)
     }
-    var newChar = (randomSpecialChar + randomNumericChar + randomUpperChar + randomLowerChar)
-    console.log(newChar)
 
+    console.log(allChoices)
 }
